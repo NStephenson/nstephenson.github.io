@@ -1,15 +1,15 @@
 import React from 'react'
 
-export default const Project = (project) => {
+export const Project = ({title, link, image, github, description}) => {
   return (
     <div className="project">
-    <h2>{project.title}</h2>
+    <h2>{title}</h2>
     {/* List of technologies*/}
-    <a href="{project.link}">
-      <img src="{project.image}" alt="" className="project-image"/>
+    <a href="{link}">
+      <img src="{image}" alt="" className="project-image"/>
     </a>
-    <p>{project.description}</p>
-    <a href="{project.github}">Github Repo</a>
+    <p>{description}</p>
+    <a href="{github}">Github Repo</a>
 
     </div>
   )

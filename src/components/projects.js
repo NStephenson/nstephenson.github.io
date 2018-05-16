@@ -1,9 +1,14 @@
 import React from 'react'
+import {Project} from './project'
+import {projectData} from '../data'
 
-export default const Projects = () => {
+export const Projects = () => {
+
+  const projectList = projectData.map((d) => <Project {...d}/>)
+
   return (
     <div>
-      
+      {projectList}
     </div>
   )
 }
