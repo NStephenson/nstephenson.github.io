@@ -22,6 +22,7 @@ class App extends Component {
       <div className="container site-content">
         <header className="App-header row ">
           <nav className="navbar navbar-expand-md">
+            <Link to="/" className="nav-item nav-link">Home</Link>
             <Link to="/about" className="nav-item nav-link">About Me</Link>
             <Link to="/projects" className="nav-item nav-link">Projects</Link>
             <Link to="/resume" className="nav-item nav-link">Resume</Link>
@@ -41,10 +42,11 @@ class App extends Component {
         
         
         </div>
-
-        <footer className="row">Copyright © 2018 - Nicholas Stephenson - <a href="https://github.com/NStephenson/nstephenson.github.io">Source Code</a></footer>
+      
         </div>
       </Router>
+          <footer className="footer">Copyright © 2018 - Nicholas Stephenson - <a href="https://github.com/NStephenson/nstephenson.github.io">Source Code</a></footer>
+
       </div>
     );
   }
