@@ -6,9 +6,14 @@ export const ContactPage = () => {
   const contactBubbles = contactData.map((t) => <ContactBubble {...t}/>)
 
   return (
-    <div>
-      <p>Hello!</p>
-      {contactBubbles}
+    <div className="middle">
+      <div className='' id="contact-bubbles">
+        {contactBubbles}
+      </div>
+      <div className="row">
+        <p className='col-12'>Or send me an email at: nick@rubberkalimba.com</p>
+      </div>
+      
     </div>
   )
 }
