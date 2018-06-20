@@ -1,11 +1,12 @@
 import React from 'react'
 
-export const ContactBubble = ({link, text, img}) => {
+export const ContactBubble = ({link, text, logo}) => {
 
   return (
-    <div className="contactBubble">
-      <a href="{link}"><img src="{img}" alt=""/></a>
-      <p>{text}</p>
+    <div className="contact-bubble ">
+      <a href={link} target='_blank'>
+        <img src={logo} alt={text + '-logo'} className="social-icon"/>
+      </a>
     </div>
   )
 
