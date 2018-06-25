@@ -8,21 +8,21 @@ export const projectData = [
   {
     name: "Quick Poll",
     link: 'https://smallpoll.herokuapp.com/',
-    image: 'project_images/quick_poll.png',
+    image: '/project_images/quick_poll.png',
     github: 'https://github.com/NStephenson/quick-poll-fe',
     description: 'A simple tool to create/manage polls and share them with friends'
   },
   {
     name: "LE3",
     link: 'https://youtube.com/',
-    image: 'project_images/LE3.png',
+    image: '/project_images/LE3.png',
     github: 'https://github.com/NStephenson/LE3',
     description: 'A chrome extension designed to enhance user experience of the Technical Coach platform'
   },
   {
     name: "Hot 100 CLI",
     link: 'https://rubygems.org/gems/Hot_100_CLI',
-    image: 'project_images/hot100.png',
+    image: '/project_images/hot100.png',
     github: 'https://github.com/NStephenson/Hot_100_CLI',
     description: 'An interactive, intelligent command line version of The Billboard’s Hot 100 Singles Chart for music enthusiasts.'
   }
@@ -30,8 +30,8 @@ export const projectData = [
 
 
 export const contactData = [
-  {text: "github", link: 'https://www.github.com/nstephenson', logo: 'social_icons/github-sign.svg'},
-  {text: 'blog', link: 'https://ispeakmachine.wordpress.com', logo: 'social_icons/wordpress-logo.svg'},
-  {text: 'linkedIn', link: 'https://www.linkedin.com/in/nicholas-stephenson-a779a215/', logo: 'social_icons/linkedin-logo.svg'}
+  {text: "github", link: 'https://www.github.com/nstephenson', logo: '/social_icons/github-sign.svg'},
+  {text: 'blog', link: 'https://ispeakmachine.wordpress.com', logo: '/social_icons/wordpress-logo.svg'},
+  {text: 'linkedIn', link: 'https://www.linkedin.com/in/nicholas-stephenson-a779a215/', logo: '//linkedin-logo.svg'}
 
 ]
