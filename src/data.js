@@ -32,6 +32,6 @@ export const projectData = [
 export const contactData = [
   {text: "github", link: 'https://www.github.com/nstephenson', logo: '/social_icons/github-sign.svg'},
   {text: 'blog', link: 'https://ispeakmachine.wordpress.com', logo: '/social_icons/wordpress-logo.svg'},
-  {text: 'linkedIn', link: 'https://www.linkedin.com/in/nicholas-stephenson-a779a215/', logo: '//linkedin-logo.svg'}
+  {text: 'linkedIn', link: 'https://www.linkedin.com/in/nicholas-stephenson-a779a215/', logo: '/social_icons/linkedin-logo.svg'}
 
 ]
