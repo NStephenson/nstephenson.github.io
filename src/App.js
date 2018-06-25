@@ -18,7 +18,7 @@ class App extends Component {
       <div id="right"></div>
       <div id="top" className="row"></div>
       <div id="bottom" className="row"></div>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
       <div className="container site-content">
         <header className="App-header row ">
           <nav className="navbar navbar-expand-md">
