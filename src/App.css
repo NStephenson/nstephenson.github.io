@@ -4,7 +4,17 @@ body {
   color: #E29930;
   width: 100%;
   height: 100%;
-  overflow: scroll;
+
+}
+
+#homepage h1,p {
+  display: inline;
+
+}
+
+.main {
+  width: inherit;
+  height: inherit;
 }
 
 nav a {
@@ -13,21 +23,24 @@ nav a {
 
 
 .site-content {
-  margin-top: 15px;
+  padding-top: 15px;
+  padding-bottom: 10vh;
+  height: 90vh;
+  width: auto;
 }
 
 footer.footer {
-  position: fixed;
+  font-size: 80%;
+  height: auto;
+  position: absolute;
   width: 100%;
-  bottom: 2%;
+  bottom: 1.5%;
   text-align: center;
 }
 
 .middle {
-  position: absolute;
-  top: 42%;
-  left: 35%;
-  text-align: center;
+  position: relative;
+  top: 35%;
 }
 
 
@@ -85,24 +98,27 @@ footer {
 
 .model {
   position: absolute;
-  top:      10%;
+  top:      0%;
   left:     5%;
   bottom:   0;
   right:    0;
   width:    90%;
-  height:   82%;
+  height:   95%;
   background: #FFFFFF;
 }
 
 #about-me {
-  position: absolute;
-  top: 35%;
-  left: 30%;
+  height: inherit;
+  text-align: center;
+/*  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 35%;*/
 }
 
 .project {
   position: absolute;
-  overflow: scroll;
+  overflow: auto;
   top: 30%;
   text-align: center;
   max-height: 70vh;
