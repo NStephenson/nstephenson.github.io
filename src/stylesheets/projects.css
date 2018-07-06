@@ -1,0 +1,81 @@
+
+#projects {
+  position: absolute;
+  top: 30%;
+
+}
+
+#project-quick-poll {
+  background-image: url(/project_images/quick_poll.png);
+}
+
+
+#project-le3 {
+  background-image: url(/project_images/LE3.png);
+}
+
+
+#project-hot-100 {
+  background-image: url(/project_images/hot100.png);
+}
+
+
+.project {
+  text-shadow: none;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  margin-right: 10px;
+  background-size: 400px;
+  max-height: 300px
+}
+
+
+.project h2 {
+
+}
+
+/*.project h2:hover, .project a:hover{
+  color: black;
+  background-color: gray;
+  border-radius: 10px;
+  color: white;
+}*/
+
+
+.project:hover {
+  background-size: 0.5px;
+  border: 3px solid #001f3f;
+}
+
+.projects .col-md-2 {
+  margin-top: 25%;
+}
+
+.invis {
+  opacity: 0;
+}
+
+.invis:hover {
+  opacity: 1;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  .project {
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    background-size: 400px;
+    max-height: 200px;
+  }
+
+
+  #projects {
+    position: absolute;
+    top: 10%;
+  }
+}
