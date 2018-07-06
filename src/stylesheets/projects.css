@@ -2,23 +2,7 @@
 #projects {
   position: absolute;
   top: 30%;
-
 }
-
-#project-quick-poll {
-  background-image: url(/project_images/quick_poll.png);
-}
-
-
-#project-le3 {
-  background-image: url(/project_images/LE3.png);
-}
-
-
-#project-hot-100 {
-  background-image: url(/project_images/hot100.png);
-}
-
 
 .project {
   text-shadow: none;
