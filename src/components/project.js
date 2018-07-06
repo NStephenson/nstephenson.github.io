@@ -1,15 +1,21 @@
-import React from 'react'
+import React, {Component} from 'react'
 
-export const Project = ({name, link, image, github, description}) => {
-  return (
-      <div className="project">
-        <h2>{name}</h2>
-        {/* List of technologies*/}
-        <a href={link} target="_blank">
-          <div className="test"><img src={process.env.PUBLIC_URL + image} alt="" className="project-image mx-auto"/></div>
-        </a>
-        <p>{description}</p>
-        <a href={github} target="_blank">Github Repo</a>
+export class Project extends Component {
+
+
+  render(){
+    let props = this.props
+    return (
+      <div className="project col-md-3" id={'project-' + props.id}>
+        <figcaption className="invis">
+          <a href={props.link} target="_blank">
+            <h2>{props.name}</h2>
+          </a>
+          <p>{props.description}</p><br></br><br></br>
+          <a href={props.github} target="_blank">Github Repo</a>
+        </figcaption>
       </div>
-  )
+    )
+  }
+
 }
