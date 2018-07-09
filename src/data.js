@@ -2,7 +2,7 @@
 
 //// PROJECTS PAGE
 
-export const aboutMe = `My name is Nicholas Stephenson. On top of being a Web Developer, I’m a lifelong music enthusiast, a film nerd, and I’m passionate about supporting vulnerable populations in my community via volunteer work. The technologies I currently utilize are Rails 5, Angular,  React, Bootstrap 4, PostgreSQL, Git, Ruby, and Typescript, but I’m always adding more to my skillset or honing the effectiveness of my current tools. Prior to my experience in development, I’ve covered a variety of roles in the entertainment industry where I’ve been constantly challenged to quickly adapt to new experiences and teams of people and I always look forward to taking on new challenges.`
+export const aboutMe = `My name is Nicholas Stephenson. I build web applications using Rails 5, Angular 2+,  React/Redux, Bootstrap 4, PostgreSQL, Git, and Typescript, but I’m always adding more to my skillset or honing the effectiveness of my current tools. Outisde of development, I'm a music and film junkie, I care deeply about public health and sustaining our environment, and you can catch me on any given saturday volunteering in my commuinty. Prior to my experience in development, I’ve covered a variety of roles in the entertainment industry where I’ve been constantly challenged to quickly adapt to new experiences and teams of people and I always look forward to taking on new challenges.`
 
 export const projectData = [
   {
