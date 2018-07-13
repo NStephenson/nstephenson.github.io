@@ -2,7 +2,7 @@
 
 //// PROJECTS PAGE
 
-export const aboutMe = `My name is Nicholas Stephenson. I build web applications using Rails 5, Angular 2+,  React/Redux, Bootstrap 4, PostgreSQL, Git, and Typescript, but I’m always adding more to my skillset or honing the effectiveness of my current tools. Outisde of development, I'm a music and film junkie, I care deeply about public health and sustaining our environment, and you can catch me on any given saturday volunteering in my commuinty. Prior to my experience in development, I’ve covered a variety of roles in the entertainment industry where I’ve been constantly challenged to quickly adapt to new experiences and teams of people and I always look forward to taking on new challenges.`
+export const aboutMe = `My name is Nicholas Stephenson. I build web applications using Rails 5, Angular 2+,  React/Redux, Bootstrap 4, PostgreSQL, Git, and Typescript, and I’m always adding more to my skillset or honing the effectiveness of my current tools. Outside of development, I’m a music and film junkie, I care deeply about public health and sustaining our environment, and you can catch me on any given Saturday volunteering in my community. Prior to my experience in development, I covered a variety of roles in the entertainment industry where I was constantly challenged to quickly adapt to new experiences and teams of people. I always look forward to taking on new challenges.`
 
 export const projectData = [
   {
@@ -15,7 +15,7 @@ export const projectData = [
   },
   {
     name: "LE3",
-    link: 'https://youtube.com/',
+    link: 'https://chrome.google.com/webstore/detail/le3/hjjhpafjpkkjbdchnaeikofponobhngc',
     image: '/project_images/LE3.png',
     github: 'https://github.com/NStephenson/LE3',
     description: 'A chrome extension designed to enhance user experience of the Technical Coach platform', 
