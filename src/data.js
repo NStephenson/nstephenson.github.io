@@ -6,20 +6,20 @@ export const aboutMe = `My name is Nicholas Stephenson. I build web applications
 
 export const projectData = [
   {
+    name: "LE3",
+    link: 'https://www.youtube.com/watch?v=YqbDdPHqsIg&list=PLwENsjt37oqd1tcq19cQerAa7n5X7vIIZ',
+    image: '/project_images/LE3.png',
+    github: 'https://github.com/NStephenson/LE3',
+    description: 'A chrome extension designed to enhance user experience of the Technical Coach platform', 
+    key: "le3"
+  },
+  {
     name: "Quick Poll",
     link: 'https://smallpoll.herokuapp.com/',
     image: '/project_images/quick_poll.png',
     github: 'https://github.com/NStephenson/quick-poll-fe',
     description: 'A simple tool to create/manage polls and share them with friends', 
     key: "quick-poll"
-  },
-  {
-    name: "LE3",
-    link: 'https://chrome.google.com/webstore/detail/le3/hjjhpafjpkkjbdchnaeikofponobhngc',
-    image: '/project_images/LE3.png',
-    github: 'https://github.com/NStephenson/LE3',
-    description: 'A chrome extension designed to enhance user experience of the Technical Coach platform', 
-    key: "le3"
   },
   {
     name: "Hot 100 CLI",
